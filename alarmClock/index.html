@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="app">
+  <div class="background" >
+    <div id="app">
+      <div id="hero">
+      <header>
+        <h1>Alarm clock ⏰</h1>
+      </header>
+      
+      <div class="container">
+        <div class="clock">
+          <div id="time"></div>
+        </div>
+        <div class="alarm">
+          <input type="time" id="alarmTime">
+          <button id="setAlarmButton">Create Alarm</button>
+        </div>
+        <div class="controls">
+          <button id="snoozeButton">Snooze alarm</button>
+          <button id="cancelButton">Cancel</button>
+        </div>
+      </div>
+      <div class="week">
+       
+        <div class="days-of-week0">
+          <label for="monday">Monday</label>
+          <input type="checkbox" name="days" value="monday">
+        </div>
+        <div class="days-of-week8">
+          <label for="tuesday">Tuesday</label>
+          <input type="checkbox" name="days" value="tuesday">
+        </div>
+    <div class="days-of-week1">
+      <label for="wednesday">Wednesday</label>
+      <input type="checkbox" name="days" value="wednesday">
+    </div>
+    <div class="days-of-week3">
+      <label for="thursday">Thursday</label>
+      <input type="checkbox" name="days" value="thursday">
+    </div>
+    <div class="days-of-week4">
+      <label for="friday">Friday</label>
+      <input type="checkbox" name="days" value="friday">
+    </div>
+    <div class="days-of-week9">
+      <label for="saturday">Saturday</label>
+      <input type="checkbox" name="days" value="saturday">
+    </div>
+    <div class="days-of-week7">
+      <label for="sunday">Sunday</label>
+      <input type="checkbox" id="sunday" name="days" value="sunday">
+    </div>
+    </div>
+  </div>
+  <audio id="alarmSound" src="alarm.mp3"></audio>
+  </div>
+  <script type="module" src="https://unpkg.com/threejs-toys@0.0.8/build/threejs-toys.module.cdn.min.js"></script>
+  <script type="module" src="main.js"></script>
+  <script type="module" src="script.js"></script>
+</body>
+</html>           
+
+
+
+
+
+
+
+
